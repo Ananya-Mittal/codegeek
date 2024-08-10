@@ -219,6 +219,12 @@ select:hover{
     font-size: 40px;
     text-align: center;
 }
+/* News */
+.news{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
 /* community networks */
 .networks{
     display: flex;
@@ -236,4 +242,23 @@ select:hover{
     margin-top: 14px;
     margin-right: 10px;
     font-size: 45px;
+}
+#loc{
+    text-decoration: none;
+}
+/* footer */
+footer{
+    background-color: rgb(150, 146, 146);
+}
+.footer{
+    display: flex;
+    font-size: 25px;
+    justify-content: space-evenly;
+    margin-left: 25px;
+}
+.footer1{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin-right: 30px;
 }
