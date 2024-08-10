@@ -1,0 +1,32 @@
+*{
+    background-image: url("river.jpg");
+    background-size: cover;   
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 16%;
+}
+.text{
+    display: flex;
+    background-color: aliceblue;
+    height:50px;
+    font-size:x-large;
+    background-image: none;
+    
+}
+#password{
+    margin-top: 10px;
+    
+}
+button{
+    background-color: aliceblue;
+    width:50px;
+    font-size:x-large;
+    width: 100px;
+    margin-top: 10px;
+    background-image: none;
+}

@@ -4,7 +4,6 @@ nav{
     flex-direction:row;
     justify-content: space-evenly;
     background-color: yellowgreen;
-    
 }
 
 .nav-bar{
@@ -64,6 +63,7 @@ i{
 .login{
     margin-left: 30px;
     margin-top:10px;
+    text-decoration:none;
 }
 button{
     height:40px;
@@ -75,6 +75,10 @@ button{
     border-bottom-left-radius: 8px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+button a{
+    text-decoration:none;
+    color:black
 }
 button:hover{
     border: 2px solid brown;
@@ -91,6 +95,11 @@ contact{
     border-bottom-left-radius: 8px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+.rewards{
+    margin-left: 30px;
+    margin-top:10px;
+    text-align: center;
 }
 .more{
     margin-left: 30px;
@@ -115,7 +124,6 @@ select:hover{
 /* most common disaster */
 .common-disasters{
     text-decoration: underline;
-   
 }
 .disasters-details{
     display:flex;
@@ -123,12 +131,12 @@ select:hover{
     justify-content: space-between;
     background-size:cover;
     flex-wrap:wrap;
-    
 }
 .disaster{
     height: 350px;
     width:270px;
     font-size: larger; 
+    
 }
 .box1{
     background-image:url("hurricane2.jpg");
@@ -160,7 +168,72 @@ select:hover{
     margin-top: 280px;
     
 }
-.disaster-p a {
+.disaster-p a{
     color: rgb(236, 28, 28);
+}
+/* Advertisement */
+.advertisement h1{
+    font-size: 60px;
+    display:flex;
+    padding-top: 50px;
+    justify-content: center;
+    height:150px;
+}
+/* tutorials */
+.Tutorials{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.t-box1{
+    margin-left: 8%;
+}
+.t-box2{
+    margin-left: 8%;
 
+}
+.t-box3{
+    margin-left: 8%;
+
+}
+.t-box4{
+    margin-left: 8%;
+
+}
+.t-box5{
+    margin-left: 8%;
+
+}
+.t-box6{
+    margin-left: 8%;
+
+}
+/* virtual reality */
+.vr{
+    font-size: 40px;
+    text-align: center;
+}
+/* workshops */
+.workshops{
+    font-size: 40px;
+    text-align: center;
+}
+/* community networks */
+.networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.society button{
+    font-size:40px;
+    width: 400px;
+    margin-top: 10px;
+    background-color: rgb(205, 63, 63);
+}
+.society i{
+    margin-left: 10px;
+    margin-top: 14px;
+    margin-right: 10px;
+    font-size: 45px;
 }

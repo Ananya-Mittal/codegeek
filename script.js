@@ -1,0 +1,1 @@
+alert("Upcoming disaster")
